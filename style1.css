@@ -1,0 +1,532 @@
+@charset "UTF-8";
+/**
+* Eric Meyer's Reset CSS v2.0
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input, textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section, time {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* meyerweb css reset end */
+
+textarea:focus, input:focus {
+  outline: 0;
+}
+
+input {
+  border-width: 0;
+}
+
+em {
+  font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.group:before,
+.group:after {
+  content: " ";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1; /* ie 6/7 */
+}
+
+embed,
+img,
+object,
+video {
+  max-width: 100%;
+}
+sup {
+  font-size: 58.3%;
+  vertical-align: text-top;
+}
+sub {
+  font-size: 58.3%;
+  vertical-align: text-bottom;
+}
+.no-space-between-inline-blocks {
+  *letter-spacing: normal; /*reset IE < 8*/
+  letter-spacing: -0.31em; /*webkit*/
+  word-spacing: -0.43em; /*IE < 8 && gecko*/
+}
+/*restore spacing on inner elements*/
+.no-space-between-inline-blocks > * {
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+.displace {
+  left: -5000px;
+  position: absolute;
+}
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+html {
+  font-size: 16px;
+}
+body {
+  color: #342019;
+  font-family: Comfortaa, display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+body {
+  float: none;
+  height: auto;
+  margin: 50px auto 0;
+  position: relative;
+  width: 100%; /* 1140px / 1140px = 100% */
+}
+.header {
+  position: relative;
+}
+.header-2 {
+  position: relative;
+}
+.menu-header-holder {
+  padding: 16px 0;
+  position: relative;
+  background: #342019;
+}
+.nav {
+  display: table;
+  margin: 0 auto;
+  position: relative;
+}
+.nav-list {
+  position: relative;
+  list-style: none;
+}
+.nav-list li {
+  float: left;
+  margin: 0 7.418577% 0 0; /* 61.5px / 829px = 7.418577% */
+}
+.nav-list li:last-child {
+  margin-right: 0;
+}
+.nav-item-1 {
+  color: #faf3d7;
+  font-size: 20px;
+  text-align: center;
+}
+.nav-item-1-2 {
+  color: #faf3d7;
+  font-size: 20px;
+  text-align: center;
+}
+.nav-item-1-3 {
+  color: #faf3d7;
+  font-size: 20px;
+  text-align: center;
+}
+.nav-item-1-4 {
+  color: #faf3d7;
+  font-size: 20px;
+  text-align: center;
+}
+.nav-item-1-5 {
+  color: #faf3d7;
+  font-size: 20px;
+  text-align: center;
+}
+.row {
+  margin: 31px 0 0;
+  min-height: 208px;
+  padding: 64px 6.052631% 46px 9.473684%; /* 69px / 1140px = 6.052631%, 108px / 1140px = 9.473684% */
+  position: relative;
+  width: 100%; /* 1140px / 1140px = 100% */
+  background: url(images/sloi_1.png) no-repeat center 0;
+  background-position: center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.logo {
+  float: left;
+  max-width: 253px;
+  width: 26.272066%; /* 253px / 963px = 26.272066% */
+}
+.col {
+  float: right;
+  margin: 8px 0 0;
+  position: relative;
+  width: 37.694702%; /* 363px / 963px = 37.694702% */
+}
+.pekarnya {
+  color: #faf3d7;
+  font-size: 35.67945px;
+  font-weight: 500;
+  text-align: right;
+}
+.text {
+  margin: 3px 0 0;
+  color: #faf3d7;
+  font-size: 50px;
+  font-weight: 500;
+  text-align: right;
+}
+.main-content-wrapper {
+  margin: 30px 0 0;
+  min-height: 942px;
+  padding: 46px 0 42px;
+  position: relative;
+  background: #faf3d7;
+}
+.row-3 {
+  margin: 0 auto;
+  position: relative;
+  width: 88.070175%; /* 1004px / 1140px = 88.070175% */
+}
+.col-3 {
+  float: left;
+  margin: 0 2.689243% 0 0; /* 27px / 1004px = 2.689243% */
+  position: relative;
+  width: 68.027885%; /* 683px / 1004px = 68.027885% */
+}
+.text-2 {
+  font-family: 'Shantell Sans', display;
+  font-size: 28px;
+  font-weight: 600;
+}
+.text-3 {
+  margin: 13px 0 0;
+  width: 100%; /* 683px / 683px = 100% */
+  line-height: 1.2;
+  text-align: justify;
+}
+.kartinka-na-sait {
+  float: left;
+  margin: 48px 0 0;
+  max-width: 294px;
+  width: 29.28287%; /* 294px / 1004px = 29.28287% */
+}
+.sloi-2 {
+  display: block;
+  margin: 30px auto 0;
+  width: 100%; /* 1140px / 1140px = 100% */
+}
+.text-4 {
+  margin: 26px 6.052631% 0; /* 69px / 1140px = 6.052631% */
+  font-family: 'Shantell Sans', display;
+  font-size: 28px;
+  font-weight: 600;
+  text-align: right;
+}
+.row-4 {
+  margin: 9px auto 0;
+  position: relative;
+  width: 87.807014%; /* 1001px / 1140px = 87.807014% */
+}
+.kartinka-na-sait-2 {
+  float: left;
+  margin: 2px 2.897103% 0 0; /* 29px / 1001px = 2.897103% */
+  max-width: 290px;
+  width: 28.97103%; /* 290px / 1001px = 28.97103% */
+}
+.text-5 {
+  width: 100%; /* 1001px / 1001px = 100% */
+  line-height: 1.2;
+  text-align: justify;
+}
+.footer {
+  margin: 30px 0 0;
+  min-height: 310px;
+  padding: 35px 5.877193%; /* 67px / 1140px = 5.877193% */
+  position: relative;
+  background: #342019;
+}
+.text-6 {
+  margin: 0 0 0 22.368422%; /* 255px / 1140px = 22.368422% */
+  color: #faf3d7;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: left;
+}
+.row-2 {
+  margin: 43px auto 0;
+  position: relative;
+  width: 99.80119%; /* 1004px / 1006px = 99.80119% */
+}
+.col-2 {
+  float: left;
+  margin: 2px 0 0;
+  position: relative;
+  width: 26.095617%; /* 262px / 1004px = 26.095617% */
+}
+.text-7 {
+  width: 100%; /* 262px / 262px = 100% */
+  color: #faf3d7;
+  font-size: 12px;
+  line-height: 1.2;
+  text-align: justify;
+}
+.text-8 {
+  margin: 82px 0 0 2.290076%; /* 6px / 262px = 2.290076% */
+  color: #faf3d7;
+  font-family: inglobal, serif;
+  font-size: 12px;
+}
+.col-6 {
+  float: right;
+  position: relative;
+  width: 26.89243%; /* 270px / 1004px = 26.89243% */
+}
+.text-9 {
+  left: 4.259259%;
+  margin: 0 auto;
+  position: relative;
+  width: 91.48148%; /* 247px / 270px = 91.48148% */
+  color: #faf3d7;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 14px;
+  text-align: right;
+}
+.row-5 {
+  margin: 51px 0 0;
+  position: relative;
+}
+.row-5 > * {
+  float: left;
+  margin: 0 1.111111% 0 0; /* 3px / 270px = 1.111111% */
+}
+.row-5 > *:last-child {
+  margin-right: 0 !important;
+}
+.ya-denezhka {
+  width: 88px;
+}
+.rambler {
+  width: 88px;
+}
+.li-ru {
+  width: 88px;
+}
+
+/* === фон страницы (шаг 3 плана): цвет под цвет контента, чтобы не было белых полос === */
+body {
+  background-color: #faf3d7;
+}
+
+/* === меню как на index.html, чтобы на всех страницах выглядело одинаково === */
+body {
+  min-width: 1014px;
+}
+.nav {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  width: 1014px;
+}
+.nav-list {
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  list-style: none;
+}
+ul.nav-list li {
+  display: inline-block;
+  float: none;
+  margin: 0 61.5px 0 0;
+}
+ul.nav-list li:last-child {
+  margin-right: 0;
+}
+
+/* === название раздела в шапке внутренних страниц (вместо «Пекарня / Выпечка круа») === */
+.page-title {
+  margin: 38px 0 0;
+}
+
+/* === подвал: меню по центру, контакты и счётчики по правому краю === */
+.text-6 {
+  margin: 0;
+  text-align: center;
+}
+.text-9 {
+  left: 0;
+  width: 100%;
+}
+.row-5 {
+  text-align: right;
+}
+.row-5 > * {
+  display: inline-block;
+  float: none;
+}
+.col-6 {
+  width: 32%;
+}
+.text-8 {
+  margin-left: 0;
+}
+/* === картинка в первом блоке прижата к правому краю, как текст ниже === */
+.kartinka-na-sait {
+  float: right;
+}
+
+/* === фон страницы: бесшовная текстура из паттерна, наклон 45° === */
+body {
+  background-color: #688492;
+  background-image: url(images/fon_pattern.jpg);
+  background-repeat: repeat;
+}
+
+/* === шапка: логотип и заголовок h1 в отдельных блоках, строки заголовка — отдельные span === */
+.logo-holder {
+  float: left;
+  max-width: 253px;
+  width: 26.272066%; /* 253px / 963px = 26.272066% */
+}
+.logo-holder .logo {
+  float: none;
+  display: block;
+  max-width: 100%;
+  width: 100%;
+}
+.header-title {
+  margin: 0;
+  font-weight: 500;
+}
+.header-title span {
+  display: block;
+}
+
+/* === подвал: div с контактами выровнен вправо === */
+.col-6 {
+  text-align: right;
+}
+
+/* === сетка как на главной: всё содержимое в колонке 1014px по центру, а не в процентах от ширины окна === */
+.row {
+  padding-left: calc(50% - 507px);
+  padding-right: calc(50% - 507px);
+}
+.row-3 {
+  width: 1014px;
+}
+.text-4 {
+  width: 1014px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.row-4 {
+  width: 1014px;
+}
+.footer {
+  padding-left: calc(50% - 507px);
+  padding-right: calc(50% - 507px);
+}
+.row-2 {
+  width: 1014px;
+}
+.col-2 {
+  width: 262px;
+}
+.col-6 {
+  width: 320px;
+}
+
+/* === блоки не на 100% ширины, а колонкой 1180px по центру: сетка 1014px + по 83px отступа с каждой стороны === */
+body {
+  min-width: 1180px;
+}
+.header,
+.main-content-wrapper,
+.sloi-2,
+.footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1180px;
+}
+.footer {
+  padding-left: 83px;
+  padding-right: 83px;
+}
+
+/* === H1 с названием пекарни над названием раздела === */
+.header-title + .page-title {
+  margin: 3px 0 0;
+}
+
+/* === ссылки в тексте (карта сайта, почта на «Контактах») выделены === */
+.text-3 a {
+  font-weight: 600;
+  text-decoration: underline;
+}
